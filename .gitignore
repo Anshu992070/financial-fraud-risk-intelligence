@@ -1,5 +1,29 @@
+# Virtual environment
 .venv/
+
+# Python cache
 __pycache__/
-.DS_Store
+*.py[cod]
+
+# Jupyter
 .ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw dataset
 data/raw/
+
+# Large processed datasets
+data/processed/train_features.parquet
+data/processed/validation_features.parquet
+data/processed/test_features.parquet
+data/processed/fraud_risk_scored_test.parquet
+
+# Environment / secrets
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
